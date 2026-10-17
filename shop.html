@@ -2,73 +2,47 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Shop physical products and digital downloads at Nahu's Collection.">
+<meta name="description" content="Shop physical products and digital downloads at Nahu's Collection. Prices in MVR.">
 <title>Shop | Nahu's Collection</title>
 <style>
-:root{--cream:#f7f1e8;--paper:#fffdf9;--ink:#44372b;--muted:#786a5c;--gold:#b58a45;--gold-dark:#8c682e;--line:#e7dac8;--sage:#e8ece2}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.55}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}.topbar{background:#44372b;color:#fff8ed;text-align:center;padding:8px 14px;font-size:.82rem;letter-spacing:.04em}.nav{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:22px 0}.brand{font-family:Georgia,serif;font-size:1.65rem;letter-spacing:.02em}.brand small{display:block;font-family:Arial,sans-serif;font-size:.7rem;letter-spacing:.19em;text-transform:uppercase;color:var(--gold-dark);margin-top:2px}.navlinks{display:flex;gap:22px;align-items:center;font-size:.95rem}.navlinks a:hover{color:var(--gold-dark)}.pill{display:inline-block;border:1px solid var(--gold);padding:11px 17px;border-radius:999px;font-size:.9rem}.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--gold-dark);color:#fffaf2;padding:13px 19px;border-radius:7px;font-weight:700;border:0;cursor:pointer;transition:transform .15s,background .15s}.btn:hover{background:#6f5127;transform:translateY(-1px)}.btn.secondary{background:transparent;color:var(--gold-dark);border:1px solid var(--gold)}.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center;padding:36px 0 64px}.eyebrow{text-transform:uppercase;letter-spacing:.2em;color:var(--gold-dark);font-size:.75rem;font-weight:700}.hero h1{font:normal clamp(2.7rem,6vw,4.8rem)/1.05 Georgia,serif;margin:16px 0}.hero p{max-width:520px;color:var(--muted);font-size:1.06rem}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.hero-art{min-height:390px;border-radius:48% 48% 8px 8px;background:linear-gradient(145deg,#e9ddc9,#d5c2a5);position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;padding:28px}.hero-art:before{content:"";position:absolute;width:72%;height:72%;border:1px solid rgba(140,104,46,.5);border-radius:50%;transform:rotate(-24deg)}.hero-art:after{content:"✦";position:absolute;right:14%;top:15%;font-size:2rem;color:#8c682e}.art-card{position:relative;background:rgba(255,253,249,.82);border:1px solid rgba(255,255,255,.8);padding:30px 24px;text-align:center;max-width:260px;box-shadow:0 15px 45px #70552b22}.art-card .flower{font-size:3rem;color:var(--gold-dark)}.art-card h2{font:normal 2rem Georgia,serif;margin:8px 0}.art-card p{font-size:.86rem;margin:0;color:var(--muted)}.section{padding:48px 0}.section-head{text-align:center;max-width:640px;margin:0 auto 28px}.section-head h2{font:normal clamp(2rem,4vw,3rem) Georgia,serif;margin:8px 0}.section-head p{color:var(--muted)}.category-grid,.product-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.category{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:28px;display:flex;gap:18px;align-items:center}.category-icon{height:64px;width:64px;border-radius:50%;background:var(--sage);display:grid;place-items:center;font-size:1.8rem;flex-shrink:0}.category h3{font:normal 1.5rem Georgia,serif;margin:0 0 5px}.category p{margin:0;color:var(--muted);font-size:.93rem}.band{background:#e9dfd0;padding:34px;border-radius:14px;display:flex;align-items:center;justify-content:space-between;gap:20px}.band h2{font:normal 2rem Georgia,serif;margin:0 0 6px}.band p{margin:0;color:var(--muted)}.page-intro{padding:30px 0 24px;text-align:center}.page-intro h1{font:normal clamp(2.5rem,5vw,4rem) Georgia,serif;margin:8px 0}.page-intro p{color:var(--muted);max-width:650px;margin:0 auto}.filters{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:26px 0 30px}.filter{border:1px solid var(--line);background:var(--paper);color:var(--ink);padding:9px 16px;border-radius:999px;cursor:pointer}.filter.active,.filter:hover{background:var(--gold-dark);border-color:var(--gold-dark);color:white}.product-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.product-card{background:var(--paper);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}.product-art{height:170px;background:linear-gradient(135deg,#eee3d2,#d9c4a5);display:grid;place-items:center;font-size:3.4rem;color:#8c682e;position:relative}.product-art.digital{background:linear-gradient(135deg,#e9ece2,#cdd6c3)}.product-art span{position:absolute;left:12px;top:12px;background:#fffdf9d9;border-radius:999px;padding:5px 9px;font-size:.68rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}.product-info{padding:17px;display:flex;flex-direction:column;flex:1}.product-info h3{font:normal 1.35rem Georgia,serif;margin:0 0 7px}.product-info p{font-size:.9rem;color:var(--muted);margin:0 0 14px;flex:1}.price{font-weight:700;color:var(--gold-dark);font-size:1.1rem;margin-bottom:14px}.product-info .btn{width:100%;font-size:.88rem;padding:11px 12px}.notice{margin-top:20px;padding:15px 18px;border-left:3px solid var(--gold);background:#f0e7d9;color:var(--muted);font-size:.9rem}.footer{margin-top:54px;background:#44372b;color:#f8f0e4;padding:32px 0}.footer-inner{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}.footer p{margin:4px 0;color:#d7c7b1;font-size:.88rem}.footer a{color:#f8e0ad}.mobile-note{font-size:.78rem;color:var(--muted);text-align:center;margin-top:12px} [hidden]{display:none!important}
-@media(max-width:760px){.nav{align-items:flex-start;flex-direction:column}.navlinks{width:100%;justify-content:space-between;gap:12px;flex-wrap:wrap}.hero{grid-template-columns:1fr;gap:28px;padding-top:18px}.hero-art{min-height:300px}.category-grid{grid-template-columns:1fr}.product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.band{align-items:flex-start;flex-direction:column}.brand{font-size:1.5rem}}
-@media(max-width:480px){.product-grid{grid-template-columns:1fr}.product-art{height:190px}.category{padding:20px}.hero h1{font-size:2.8rem}.hero-art{min-height:280px}}
+:root{--navy:#102c50;--blue:#1d5b91;--blue-soft:#edf5fc;--white:#fff;--gold:#c7a04a;--gold-dark:#967126;--ink:#172b42;--muted:#607084;--line:#dce5ee;--pale:#f7faff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(1160px,92%);margin:auto}.topbar{background:var(--navy);color:#fff;text-align:center;padding:8px 12px;font-size:.82rem;letter-spacing:.05em}.topbar b{color:#f1d58e}.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:22px 0;border-bottom:1px solid var(--line)}.brand{font:normal 1.65rem Georgia,serif;color:var(--navy)}.brand small{display:block;font:700 .67rem Arial,sans-serif;letter-spacing:.19em;text-transform:uppercase;color:var(--gold-dark);margin-top:3px}.navlinks{display:flex;align-items:center;gap:22px;font-size:.93rem}.navlinks a:hover{color:var(--blue)}.pill{border:1px solid var(--gold);border-radius:999px;padding:10px 16px;color:var(--navy);font-weight:700}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--navy);color:#fff;padding:12px 15px;border-radius:7px;font-weight:700;border:1px solid var(--navy);transition:.15s}.btn:hover{background:var(--blue)}.page-intro{padding:42px 0 22px}.eyebrow{text-transform:uppercase;letter-spacing:.2em;color:var(--gold-dark);font-size:.73rem;font-weight:800}.page-intro h1{font:normal clamp(2.5rem,5vw,3.8rem)/1.1 Georgia,serif;color:var(--navy);margin:8px 0}.page-intro p{color:var(--muted);max-width:650px;margin:0}.filters{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0 26px}.filter{border:1px solid var(--line);background:#fff;color:var(--navy);padding:9px 15px;border-radius:999px;cursor:pointer;font-weight:700}.filter.active,.filter:hover{background:var(--navy);border-color:var(--navy);color:#fff}.product-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.product-card{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff;display:flex;flex-direction:column;min-width:0;transition:transform .15s,box-shadow .15s}.product-card:hover{transform:translateY(-3px);box-shadow:0 12px 28px #102c5012}.product-image{height:300px;background:var(--blue-soft);overflow:hidden;display:flex;align-items:center;justify-content:center}.product-image img{width:100%;height:100%;object-fit:cover;object-position:center 25%;display:block}.digital-art{height:100%;width:100%;display:flex;align-items:center;justify-content:center;background:linear-gradient(145deg,#edf5fc,#fff 65%,#f8f0d9);padding:20px}.digital-cover{width:175px;min-height:220px;background:#fff;border:1px solid #d6e1ec;border-top:7px solid var(--gold);border-radius:8px;box-shadow:0 12px 28px #102c5020;padding:20px 14px;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center}.digital-cover .book-icon{font-size:2.1rem;color:var(--blue)}.digital-cover strong{font:normal 1.2rem Georgia,serif;color:var(--navy);line-height:1.25;margin:12px 0 8px}.digital-cover span{font-size:.7rem;letter-spacing:.1em;color:var(--gold-dark);text-transform:uppercase}.product-info{padding:17px;display:flex;flex-direction:column;flex:1}.type-label{font-size:.68rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:var(--blue)}.product-info h2{font:normal 1.35rem/1.25 Georgia,serif;color:var(--navy);margin:7px 0}.product-info p{font-size:.9rem;color:var(--muted);margin:0 0 13px;flex:1}.details{font-size:.84rem;color:var(--muted);padding:10px 0;border-top:1px solid var(--line);margin-bottom:10px}.price{font-weight:800;color:var(--gold-dark);font-size:1.1rem;margin:0 0 13px}.product-info .btn{width:100%;font-size:.88rem}.notice{margin:25px 0;padding:16px 18px;border-left:3px solid var(--gold);background:var(--blue-soft);color:var(--muted);font-size:.9rem}.footer{background:#0c213b;color:#fff;padding:30px 0;margin-top:45px}.footer-inner{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}.footer .brand{color:#fff}.footer p{margin:5px 0;color:#c8d6e5;font-size:.9rem}.footer a:not(.brand){color:#f1d58e;text-decoration:underline;text-underline-offset:3px}.hidden{display:none!important}
+@media(max-width:850px){.product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.product-image{height:280px}}
+@media(max-width:600px){.nav{align-items:flex-start;flex-direction:column}.navlinks{width:100%;gap:12px;flex-wrap:wrap}.product-grid{grid-template-columns:1fr}.product-image{height:340px}.brand{font-size:1.5rem}}
 </style>
 </head>
 <body>
-<div class="topbar">Browse the collection · Prices in MVR · Order through Viber</div>
-<header class="wrap">
-  <nav class="nav" aria-label="Main navigation">
-    <a class="brand" href="index.html">Nahu’s Collection<small>Thoughtfully chosen, just for you</small></a>
-    <div class="navlinks"><a href="index.html">Home</a><a href="shop.html">Shop all</a><a class="pill" href="https://viber.me/9607409157" target="_blank" rel="noopener">Message on Viber ↗</a></div>
-  </nav>
-</header>
-<main class="wrap">
-  <section class="page-intro"><div class="eyebrow">The collection</div><h1>Shop all products</h1><p>Browse our sample listings below. Product names, descriptions, prices and icons can be edited in this page’s product list.</p></section>
-  <div class="filters" aria-label="Filter products">
-    <button class="filter active" data-filter="all">All products</button>
-    <button class="filter" data-filter="physical">Physical products</button>
-    <button class="filter" data-filter="digital">Digital products</button>
-  </div>
-  <section id="products" class="product-grid" aria-live="polite"></section>
-  <div class="notice"><strong>How ordering works:</strong> Tap “Order via Viber” to open a Viber message flow with your product request prepared. Depending on the device, Viber may ask you to choose the conversation. Please confirm availability, payment and delivery details with Nahu before paying. Digital downloads are sent after payment is confirmed.</div>
-  <p class="mobile-note">Sample listings only — replace these with your real products and prices before sharing the website.</p>
+<div class="topbar">PHYSICAL FINDS & DIGITAL DOWNLOADS <b>·</b> PRICES IN MVR <b>·</b> ORDER THROUGH VIBER</div>
+<header class="wrap"><nav class="nav" aria-label="Main navigation"><a class="brand" href="index.html">Nahu’s Collection<small>Everyday finds, thoughtfully chosen</small></a><div class="navlinks"><a href="index.html">Home</a><a href="shop.html">Shop all</a><a class="pill" href="https://viber.me/%2B9607409157" target="_blank" rel="noopener">Message on Viber ↗</a></div></nav></header>
+<main class="wrap"><section class="page-intro"><div class="eyebrow">The collection</div><h1>Shop all products</h1><p>Browse the products below. Prices for physical items are in Maldivian Rufiyaa (MVR). Contact us on Viber to confirm stock, delivery and digital product pricing.</p></section>
+<div class="filters" aria-label="Filter products"><button class="filter active" data-filter="all">All products</button><button class="filter" data-filter="physical">Physical products</button><button class="filter" data-filter="digital">Digital products</button></div>
+<section id="products" class="product-grid" aria-live="polite"></section>
+<div class="notice"><strong>How to order:</strong> Choose “Ask / order on Viber” to contact Nahu. Please confirm availability, payment and delivery details before paying. Digital products are provided after payment is confirmed.</div>
 </main>
-<footer class="footer"><div class="wrap footer-inner"><div><div class="brand">Nahu’s Collection</div><p>Thoughtfully chosen, just for you.</p></div><div><p>Ready to order?</p><a href="https://viber.me/9607409157" target="_blank" rel="noopener">Viber · 7409157</a></div></div></footer>
+<footer class="footer"><div class="wrap footer-inner"><div><div class="brand">Nahu’s Collection</div><p>Blue · White · Gold</p></div><div><p>Questions or ready to order?</p><a href="https://viber.me/%2B9607409157" target="_blank" rel="noopener">Message on Viber · 7409157</a></div></div></footer>
 <script>
-// EDIT YOUR PRODUCTS HERE. Type must be "physical" or "digital"; price is in MVR.
+const VIBER_URL = "https://viber.me/%2B9607409157";
 const products = [
-  {name:"Everyday Modest Top", type:"physical", price:165, icon:"✧", description:"A versatile everyday piece. Replace with your size, colour and fabric details."},
-  {name:"Elegant Scarf", type:"physical", price:120, icon:"❋", description:"A simple accessory to complement your everyday wardrobe."},
-  {name:"Gift Set", type:"physical", price:250, icon:"♧", description:"A thoughtful little gift. Update this listing with what is included."},
-  {name:"Weekly Planner PDF", type:"digital", price:45, icon:"▤", description:"A printable planner to organise your week. Digital delivery after payment."},
-  {name:"Healthy Recipe eBook", type:"digital", price:75, icon:"♡", description:"A digital recipe collection. Add the number of recipes and format here."},
-  {name:"Habit Tracker Bundle", type:"digital", price:65, icon:"✦", description:"Printable habit tracker pages to help build consistent routines."}
+ {name:"Pink Feather-Print Blouse",type:"physical",price:165,image:"assets/pink-feather-blouse.png",description:"Soft pink blouse with a feather print and ruffled neckline.",details:"Shoulder: 15.5 in · Sleeve: 18.5 in · Length: 29 in"},
+ {name:"Light Blue Embroidered Blouse",type:"physical",price:175,image:"assets/light-blue-blouse.png",description:"Light blue button-front blouse with embroidered leaf details and a flowing hem.",details:"Shoulder: 15 in · Sleeve: 23.8 in · Back: 29 in · Front: 26 in"},
+ {name:"Blue Patterned Tunic",type:"physical",price:215,image:"assets/blue-patterned-tunic.png",description:"Navy-blue long-sleeve tunic with a light-blue all-over pattern.",details:"Size: M"},
+ {name:"Navy Squiggle Tunic",type:"physical",price:297,image:"assets/navy-squiggle-tunic.png",description:"Navy tunic with light-blue squiggle pattern and long sleeves.",details:"Size: XL"},
+ {name:"Black Embroidered Dress",type:"physical",price:215,image:"assets/black-embroidered-dress.png",description:"Black dress with colourful embroidered detail and white lace trim.",details:"Size: M"},
+ {name:"Lavender Floral Tunic",type:"physical",price:215,image:"assets/lavender-floral-tunic.png",description:"Black tunic with purple floral accents and long sleeves.",details:"Size: M"},
+ {name:"Learn to Write English Letters PDF",type:"digital",price:null,image:null,description:"A downloadable learning resource for practising English letter writing.",details:"Digital PDF · Sent after payment is confirmed"}
 ];
-const viberNumber = "+9607409157";
-const grid = document.getElementById("products");
-function orderLink(product){
-  const message = `Assalaamu alaikum, I would like to order: ${product.name}. Price: MVR ${product.price}. Please confirm availability and payment/delivery details.`;
-  // Viber's share flow can prefill text; the customer may need to select Nahu's chat.
-  return "viber://forward?text=" + encodeURIComponent(message);
+const grid=document.getElementById('products');
+function render(filter='all'){
+ grid.innerHTML='';
+ products.filter(p=>filter==='all'||p.type===filter).forEach(p=>{
+  const card=document.createElement('article');card.className='product-card';
+  const media=p.type==='digital'?`<div class="product-image"><div class="digital-art"><div class="digital-cover"><div class="book-icon">▤</div><strong>Learn to Write English Letters</strong><span>Printable PDF</span></div></div></div>`:`<div class="product-image"><img src="${p.image}" alt="${p.name}" loading="lazy"></div>`;
+  card.innerHTML=media+`<div class="product-info"><div class="type-label">${p.type==='digital'?'Digital download':'Physical product'}</div><h2></h2><p></p><div class="details"></div><div class="price"></div><a class="btn" href="${VIBER_URL}" target="_blank" rel="noopener">Ask / order on Viber ↗</a></div>`;
+  card.querySelector('h2').textContent=p.name;card.querySelector('.product-info p').textContent=p.description;card.querySelector('.details').textContent=p.details;card.querySelector('.price').textContent=p.price===null?'Price on request (MVR)':`MVR ${p.price.toLocaleString('en-US')}`;
+  grid.appendChild(card);
+ });
 }
-function render(filter="all"){
-  grid.innerHTML = "";
-  products.filter(p => filter==="all" || p.type===filter).forEach(p => {
-    const card = document.createElement("article");
-    card.className = "product-card";
-    card.id = p.type;
-    card.innerHTML = `<div class="product-art ${p.type==="digital"?"digital":""}"><span>${p.type==="digital"?"Digital download":"Physical item"}</span>${p.icon}</div>
-      <div class="product-info"><h3></h3><p></p><div class="price"></div><a class="btn" target="_blank" rel="noopener">Order via Viber ↗</a></div>`;
-    card.querySelector("h3").textContent = p.name;
-    card.querySelector(".product-info p").textContent = p.description;
-    card.querySelector(".price").textContent = "MVR " + Number(p.price).toLocaleString("en-US");
-    const link = card.querySelector("a");
-    link.href = orderLink(p);
-    link.setAttribute("aria-label", "Order " + p.name + " via Viber");
-    grid.appendChild(card);
-  });
-}
-document.querySelectorAll(".filter").forEach(btn => btn.addEventListener("click", () => {
-  document.querySelectorAll(".filter").forEach(b=>b.classList.remove("active"));
-  btn.classList.add("active"); render(btn.dataset.filter);
-}));
+document.querySelectorAll('.filter').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.filter').forEach(b=>b.classList.remove('active'));btn.classList.add('active');render(btn.dataset.filter)}));
 render();
 </script>
 </body></html>
